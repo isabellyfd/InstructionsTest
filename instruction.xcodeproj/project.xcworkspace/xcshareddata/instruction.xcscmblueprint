@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E852BB14FF5D9689D4989EE46A61A0D991DBA0F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E852BB14FF5D9689D4989EE46A61A0D991DBA0F9" : 9223372036854775807,
+    "15146749308F7667D8B3B84ACEE4A7A838940EE0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "28ED093E-68CF-409B-B781-E411C883599E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E852BB14FF5D9689D4989EE46A61A0D991DBA0F9" : "instruction\/",
+    "15146749308F7667D8B3B84ACEE4A7A838940EE0" : "instruction\/externals\/instructions\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "instruction",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "instruction.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ephread\/Instructions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15146749308F7667D8B3B84ACEE4A7A838940EE0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/isabellyfd\/InstructionsTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E852BB14FF5D9689D4989EE46A61A0D991DBA0F9"
+    }
+  ]
+}

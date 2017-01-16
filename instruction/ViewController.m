@@ -7,10 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "Instructions/instruction-Swift.h"
+#import "instruction-Swift.h"
 
 @interface ViewController ()
-
+    @property (nonatomic, strong) InstructionsManager *instruction;
 @end
 
 @implementation ViewController
@@ -18,8 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.instruction = [[InstructionsManager alloc] initWithParentViewController:self];
+    self.instruction.highLightedView = self.myView;
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [self.instruction startTour];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
